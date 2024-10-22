@@ -13,7 +13,7 @@ Thanks to JS Mastery (yt)
 ## Tech Stack
 
 - **Frontend:** Next.js 14
-- **Backend:** Node.js with Express
+- **Backend:** Next.js 14
 - **Database:** MongoDB
 - **Authentication:** [NextAuth.js](https://next-auth.js.org/)
 
