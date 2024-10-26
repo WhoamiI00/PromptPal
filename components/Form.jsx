@@ -29,7 +29,7 @@ const Form = ({
           />
         </label>
         <label>
-          <span className="font-satoshi font-semibold text-base text-gray-700">Tag{` `}<span className="font-normal">(#product,#webdevelopment,#idea)</span></span>
+          <span className="font-satoshi font-semibold text-base text-gray-700">Tag{` `}<span className="font-normal">(#product,#webdevelopment,#idea)onlyOne</span></span>
           <input
           value={post.tag}
           onChange={(e)=> setPost({...post,tag: e.target.value})}
