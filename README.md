@@ -1,6 +1,6 @@
-# Promptopia
+# PromptPal
 
-Promptopia is a web application designed for exploring and saving prompts. Built with Next.js 14 and MongoDB, it allows users to discover a variety of creative prompts and save their favorites for easy access.
+PromptPal is a web application designed for exploring and saving prompts. Built with Next.js 14 and MongoDB, it allows users to discover a variety of creative prompts and save their favorites for easy access.
 
 ## Features
 
