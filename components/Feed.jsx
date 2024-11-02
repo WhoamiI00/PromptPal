@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-
 import PromptCard from "./PromptCard";
 
 const PromptCardList = ({ data, handleTagClick }) => {
@@ -35,7 +34,10 @@ const Feed = () => {
   };
 
   useEffect(() => {
-    fetchPosts();
+    fetchPosts(); // Initial fetch
+    const interval = setInterval(fetchPosts, 10000); // Refetch every 10 seconds
+
+    return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
   useEffect(() => {
@@ -96,6 +98,5 @@ const Feed = () => {
     </section>
   );
 };
-
 
 export default Feed;
