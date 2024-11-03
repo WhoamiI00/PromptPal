@@ -35,9 +35,6 @@ const Feed = () => {
 
   useEffect(() => {
     fetchPosts(); // Initial fetch
-    const interval = setInterval(fetchPosts, 10000); // Refetch every 10 seconds
-
-    return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
   useEffect(() => {
